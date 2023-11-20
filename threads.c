@@ -29,13 +29,13 @@ main(void)
     pthread_t threads[thread_count];
     for (intptr_t i = 0; i < thread_count; i++)
     {
-        int e = pthread_create(&threads[0], NULL, looper, (void*)i);
+        int e = pthread_create(&threads[i], NULL, looper, (void*)i);
         assert(!e);
     }
 
     for (int i = 0; i < thread_count; i++)
     {
-        int e = pthread_join(threads[0], NULL);
+        int e = pthread_join(threads[i], NULL);
         assert(!e);
     }
 
