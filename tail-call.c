@@ -1,3 +1,5 @@
+/* This is free and unencumbered software released into the public domain. */
+
 /* Compile with gcc -g3 -O3 -o tail-call tail-call.c */
 #include <stdio.h>
 
