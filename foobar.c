@@ -1,3 +1,4 @@
+/* This is free and unencumbered software released into the public domain. */
 static int
 bar(int i)
 {

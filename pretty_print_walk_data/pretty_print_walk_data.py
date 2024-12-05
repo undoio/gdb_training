@@ -1,3 +1,4 @@
+# This is free and unencumbered software released into the public domain.
 import gdb
 
 # Implement one or more methods of this pretty printer to change how the Node

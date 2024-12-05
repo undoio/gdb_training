@@ -1,3 +1,5 @@
+/* This is free and unencumbered software released into the public domain. */
+
 /* Tries to find the shortest path to G */
 
 #include <stdio.h>
